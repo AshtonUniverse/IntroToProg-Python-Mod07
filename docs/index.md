@@ -195,8 +195,8 @@ elif (strChoice.strip() == "4"):<br>
 
 Step 6 executes menu option four to save data.  I added a try/except block that begins with the strOverwrite variable set to an input() statement asking the user for a “y/n” (yes or no) to overwrite the data file.  If “no” the conditional breaks.  If “yes,” I call the import pickle module, open() function to open the data file and “pickle.dump” to write the lstTable data to the binary file PersonalData.dat.  A print() statement prints “Data Saved” on completion.  The exception block catches all general errors.<br>
 
-##### Step 7 – Exit the menu / program. 
- elif (strChoice.strip() == '5'): 
+##### Step 7 – Exit the menu / program.<br> 
+ elif (strChoice.strip() == '5'):<br>
  break<br>
 
 input("\nPress the enter key to exit")<br>
