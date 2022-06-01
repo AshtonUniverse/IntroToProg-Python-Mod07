@@ -3,7 +3,7 @@
 ##### IT FDN 110 A Spring 2022: Foundations of Programming: Python<br>
 ##### Assignment07<br>
 ##### https://github.com/AshtonUniverse/IntroToProg-Python-Mod07<br>
-##### https://ashtonuniverse.github.io/IntroToProg-Python-Mod07/<br>
+##### https://github.com/AshtonUniverse/IntroToProg-Python-Mod07<br>
 
 ### Introduction:<br>
 
