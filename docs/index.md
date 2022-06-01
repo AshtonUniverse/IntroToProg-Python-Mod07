@@ -205,8 +205,8 @@ Step 7 exits the loop, and an input() function prompts the user to press the “
 
 ### Run the script from PyCharm.<br>
 
-![Image](https://ashtonuniverse.github.io/IntroToProg-Python-Mod07/docs/images/pycharm1.png)
-![Image](https://ashtonuniverse.github.io/IntroToProg-Python-Mod07/docs/images/pycharm2.png)
+![Image](./images/pycharm1.png)
+![Image](./images/pycharm2.png)
 ![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/pycharm3.png)
 ![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/pycharm4.png)
 ![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/pycharm5.png)
