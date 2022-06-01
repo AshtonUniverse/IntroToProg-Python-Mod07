@@ -1,3 +1,9 @@
+Google Homepage<br>
+GitHub Webpage Code CheatSheet<br>
+
+
+
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
