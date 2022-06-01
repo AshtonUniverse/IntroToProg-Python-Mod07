@@ -5,7 +5,7 @@
 ##### https://github.com/AshtonUniverse/IntroToProg-Python-Mod07<br>
 ##### https://github.com/AshtonUniverse/IntroToProg-Python-Mod07<br>
 
-### Introduction:<br>
+###  Introduction:<br>
 
 The objective of assignment 07 is to create a script that demonstrates how pickling and
 structured error handling work.  The “Personal Data” (Assignment07.py) program has three separations of concerns: Data, Processing, and Presentation (Input-Output).<br>  
@@ -22,8 +22,9 @@ Step 7 – Exit the menu / program.<br>
 
 This document is a breakdown of the logic I used for assignment 07. I will list each step highlighting code I created along with detail on the logic and its purpose.<br>  
 
-Added a script header:<br>
+### Added a script header:<br>
 
+```
 ##### ---------------------------------------------------------------------------- #
 ##### Title: Assignment 07
 ##### Description:  Create a script that demonstrates how pickling and
@@ -31,21 +32,25 @@ Added a script header:<br>
 ##### ChangeLog (Who,When,What):
 ##### ALarkin,5.31.2022,Assignment 07
 ##### ---------------------------------------------------------------------------- #
-
+```
 
 ##### -- Data -- #
 ##### Declare variables and constants
 
 The data section contains four global variables used in the script:
 
+```
 datFile = "PersonalData.dat"    # An object that represents a file<br>
 dicRow = {}     # A row of data separated into elements of a dictionary<br>
 lstTable = []   # A list that acts as a 'table' of rows<br>
 strChoice = ""  # Capture the user option selection<br>
+```
 
 ##### -- Processing -- #
 
 ##### Step 1 - When the program starts, load data from PersonalData.dat
+
+``` 
 try:<br>
     import os.path<br>
     isfile_bln = (os.path.isfile(datFile))<br>
@@ -73,6 +78,7 @@ except Exception as e:<br>
     print("Error Reading Data From File:", e, sep='\n')<br>
     # print("Built-In Python error info: ")<br>
     # print(e, e.__doc__, type(e), sep='\n')<br>
+```
 
 Step 1 loads any existing data from PersonalData.dat into a list table.  It includes a try/except block that contains the variable isfile_bln that performs a validation on the datFile parameter passed to the function “os.path.isfile” and returns a Boolean value (True or False).  This function also calls the os. path module.  It is useful when processing files from different places in the system and for different purposes such as for merging, normalizing, and retrieving path names in python.  If isfile_bln evaluates to “True,” datFile is determined to be a valid file and I then import the pickle module and unpickle the data from the datFile into the objFileData variable which is then unpacked into the list table variable lstTable.  I added two exceptions for the try/except block.  The first “FileNotFoundError” is redundant code since I am already validating the file with os.path.isfile, however, I added this exception to demonstrate an alternative method for catching the error: FileNotFoundError: [Errno 2] No such file or directory.  The last exception is a catch all for general error handling.  For all exceptions in this script, I included print() statements for Pythons built in error information commented out to show the optional choice.<br>
 
