@@ -205,27 +205,11 @@ Step 7 exits the loop, and an input() function prompts the user to press the “
 
 ### Run the script from PyCharm.<br>
 
-![Image](./images/pycharm1.png)
-![Image](./images/pycharm2.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/pycharm3.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/pycharm4.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/pycharm5.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/pycharm6.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/pycharm7.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/pycharm8.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/pycharm9.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/pycharm10.png)
+![Image](./pycharm1.png)
 
 ### Run the Python Script from the Windows OS Command Shell and verify the data in the ToDoList.txt file.<br>
 
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/console1.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/console2.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/console3.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/console4.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/console5.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/console6.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/console7.png)
-![Image](https://github.com/AshtonUniverse/IntroToProg-Python-Mod07/blob/main/docs/images/console8.png)
+
 
 ### Summary:<br>
 
