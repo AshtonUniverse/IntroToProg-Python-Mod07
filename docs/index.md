@@ -206,10 +206,26 @@ Step 7 exits the loop, and an input() function prompts the user to press the “
 ### Run the script from PyCharm.<br>
 
 ![Image](./images/pycharm1.png)
+![Image](./images/pycharm2.png)
+![Image](./images/pycharm3.png)
+![Image](./images/pycharm4.png)
+![Image](./images/pycharm5.png)
+![Image](./images/pycharm6.png)
+![Image](./images/pycharm7.png)
+![Image](./images/pycharm8.png)
+![Image](./images/pycharm9.png)
+![Image](./images/pycharm10.png)
 
 ### Run the Python Script from the Windows OS Command Shell and verify the data in the ToDoList.txt file.<br>
 
-
+![Image](./images/console1.png)
+![Image](./images/console2.png)
+![Image](./images/console3.png)
+![Image](./images/console4.png)
+![Image](./images/console5.png)
+![Image](./images/console6.png)
+![Image](./images/console7.png)
+![Image](./images/console8.png)
 
 ### Summary:<br>
 
