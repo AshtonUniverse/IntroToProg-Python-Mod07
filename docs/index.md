@@ -92,9 +92,9 @@ while (True):<br>
      ****************************<br>
      """)<br>
      
-     strChoice = str(input("Which option would you like to perform? [1 to 5] - ")) 
+     strChoice = str(input("Which option would you like to perform? [1 to 5] - "))<br>
      print() # adding a new line for looks<br>
-
+     
 Step 2 begins the while loop and displays the menu of options along with the variable strChoice set to an input() function for the user to select option 1-5 to perform.<br>
 
 ##### Step 3 - Show current data.<br>
