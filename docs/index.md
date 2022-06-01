@@ -24,7 +24,7 @@ Step 7 – Exit the menu / program.<br>
 
 This document is a breakdown of the logic I used for assignment 07. I will list each step highlighting code I created along with detail on the logic and its purpose.<br>  
 
-### Added a script header:<br>
+### Script header:<br>
 
 ```
 ##### ---------------------------------------------------------------------------- #
@@ -36,10 +36,15 @@ This document is a breakdown of the logic I used for assignment 07. I will list 
 ##### ---------------------------------------------------------------------------- #
 ```
 
-##### -- Data -- #
-##### Declare variables and constants
 
-*The data section contains four global variables used in the script:*
+``` 
+-- Data -- 
+```
+
+##### Declare variables and constants<br>
+
+*The data section contains four global variables used in the script:*<br>
+
 
 ```
 datFile = "PersonalData.dat"    # An object that represents a file<br>
@@ -48,9 +53,11 @@ lstTable = []   # A list that acts as a 'table' of rows<br>
 strChoice = ""  # Capture the user option selection<br>
 ```
 
-##### -- Processing --
+``` 
+-- Processing -- 
+```
 
-##### Step 1 - When the program starts, load data from PersonalData.dat
+##### Step 1 - When the program starts, load data from PersonalData.dat<br>
 
 *Step 1 loads any existing data from PersonalData.dat into a list table.  It includes a try/except block that contains the variable isfile_bln that performs a validation on the datFile parameter passed to the function “os.path.isfile” and returns a Boolean value (True or False).  This function also calls the os. path module.  It is useful when processing files from different places in the system and for different purposes such as for merging, normalizing, and retrieving path names in python.  If isfile_bln evaluates to “True,” datFile is determined to be a valid file and I then import the pickle module and unpickle the data from the datFile into the objFileData variable which is then unpacked into the list table variable lstTable.  I added two exceptions for the try/except block.  The first “FileNotFoundError” is redundant code since I am already validating the file with os.path.isfile, however, I added this exception to demonstrate an alternative method for catching the error: FileNotFoundError: [Errno 2] No such file or directory.  The last exception is a catch all for general error handling.  For all exceptions in this script, I included print() statements for Pythons built in error information commented out to show the optional choice.<br>*
 
@@ -84,7 +91,9 @@ except Exception as e:
     # print(e, e.__doc__, type(e), sep='\n')
 ```
 
-##### -- Input/Output --<br>
+``` 
+-- Input/Output -- 
+```
 
 ##### Step 2 - Display a menu of choices to the user.<br>
 
