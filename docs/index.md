@@ -242,7 +242,7 @@ input("\nPress the enter key to exit")
 ![Image](./images/pycharm9.png)
 ![Image](./images/pycharm10.png)
 
-### Run the Python Script from the Windows OS Command Shell and verify the data in the ToDoList.txt file.<br>
+### Run the Python Script from the Windows OS Command Shell and verify the data in the .dat file.<br>
 
 ![Image](./images/console1.png)
 ![Image](./images/console2.png)
