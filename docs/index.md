@@ -85,6 +85,7 @@ Step 1 loads any existing data from PersonalData.dat into a list table.  It incl
 ##### -- Input/Output -- #<br>
 
 ##### Step 2 - Display a menu of choices to the user.<br>
+```
 while (True):<br>
      print("""<br>
      ****************************<br>
@@ -100,10 +101,13 @@ while (True):<br>
      
      strChoice = str(input("Which option would you like to perform? [1 to 5] - "))<br>
      print() # adding a new line for looks<br>
-     
+```
+
 Step 2 begins the while loop and displays the menu of options along with the variable strChoice set to an input() function for the user to select option 1-5 to perform.<br>
 
 ##### Step 3 - Show current data.<br>
+
+```
 if (strChoice.strip() == "1"):<br>
     try:<br>
        print() # adding a new line for looks<br>
@@ -119,10 +123,13 @@ if (strChoice.strip() == "1"):<br>
        # print("Built-In Python error info: ")<br>
        # print(e, e.__doc__, type(e), sep='\n')<br>
     continue<br>
+```
 
 Step 3 executes menu option one to show current data.  It uses a try/except block with a for loop to unpack the data from the list table lstTable.  I added a catch all exception to capture all general errors.<br>
 
 ##### Step 4 - Add data.<br>
+
+```
 elif (strChoice.strip() == "2"):<br>
     try:<br>
        print("Enter personal data: ")<br>
@@ -149,10 +156,13 @@ elif (strChoice.strip() == "2"):<br>
        # print("Built-In Python error info: ")<br>
        # print(e, e.__doc__, type(e), sep='\n')<br>
     continue<br>
+```
 
 Step 4 executes menu option three to add data. It uses try/except block that contains input() statements for the user to enter personal data including: Name, Address, Phone Number, Email, Date of Birth (DOB), and Social Security Number (SSN).  I used the strip() method to remove whitespace and characters from the beginning and the end of strings, the lower() method to return strings where all characters are lower case, and the title() method to return a string where the first character in every word is upper case.  This ensures consistency in how the data’s stored, presented, and removed in other steps.  I also added if statements with a raise Exception on multiple inputs to validate the users input for data validation including length, isnumeric() and find().  The exception block catches all general errors and the individual raised exceptions for the input() steps.<br>
 
 ##### Step 5 - Remove data.<br>
+
+```
 elif (strChoice.strip() == "3"):<br>
      try:<br>
          strRemove = str(input("Enter a name to remove from personal details: ").strip().lower().title())<br>
@@ -174,10 +184,13 @@ elif (strChoice.strip() == "3"):<br>
         # print("Built-In Python error info: ")<br>
         # print(e, e.__doc__, type(e), sep='\n')<br>
      continue<br>
+```
 
 Step 5 executes menu option three to remove data.  I added a try/except block that includes an input() statement that asks the user to input a “name” to remove including the strip(), lower(), and title() methods to ensure data consistency and validation on row lookup.  I also added a Boolean variable “remove_bln” to verify if the data exists in the list table lstTable.  If remove_bln evaluates to “True,” the data is removed from the list table, and it prints the “name” removed from personal details.  If remove_bln evaluates to “False,” the data does not exist, and it prints the “name” is not in personal details.  The exception block catches all general errors.<br>
 
 ##### Step 6 - Save Data.<br>
+
+```
 elif (strChoice.strip() == "4"):<br>
     try:<br>
         strOverwrite = str(input("Overwrite: " + datFile + "?" + " [y/n] ").strip().lower())<br>
@@ -198,14 +211,18 @@ elif (strChoice.strip() == "4"):<br>
         # print("Built-In Python error info: ")<br>
         # print(e, e.__doc__, type(e), sep='\n')<br>
     continue<br>
+```
 
 Step 6 executes menu option four to save data.  I added a try/except block that begins with the strOverwrite variable set to an input() statement asking the user for a “y/n” (yes or no) to overwrite the data file.  If “no” the conditional breaks.  If “yes,” I call the import pickle module, open() function to open the data file and “pickle.dump” to write the lstTable data to the binary file PersonalData.dat.  A print() statement prints “Data Saved” on completion.  The exception block catches all general errors.<br>
 
 ##### Step 7 – Exit the menu / program.<br> 
+
+```
  elif (strChoice.strip() == '5'):<br>
  break<br>
 
 input("\nPress the enter key to exit")<br>
+```
 
 Step 7 exits the loop, and an input() function prompts the user to press the “enter” key to exit the program.<br>
 
