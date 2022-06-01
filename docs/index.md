@@ -91,9 +91,9 @@ while (True):<br>
      5) Exit Program<br>
      ****************************<br>
      """)<br>
-
-     strChoice = str(input("Which option would you like to perform? [1 to 5] - "))<br>
-     print()  # adding a new line for looks<br>
+     
+     strChoice = str(input("Which option would you like to perform? [1 to 5] - ")) 
+     print() # adding a new line for looks<br>
 
 Step 2 begins the while loop and displays the menu of options along with the variable strChoice set to an input() function for the user to select option 1-5 to perform.<br>
 
@@ -195,9 +195,9 @@ elif (strChoice.strip() == "4"):<br>
 
 Step 6 executes menu option four to save data.  I added a try/except block that begins with the strOverwrite variable set to an input() statement asking the user for a “y/n” (yes or no) to overwrite the data file.  If “no” the conditional breaks.  If “yes,” I call the import pickle module, open() function to open the data file and “pickle.dump” to write the lstTable data to the binary file PersonalData.dat.  A print() statement prints “Data Saved” on completion.  The exception block catches all general errors.<br>
 
-     # Step 7 – Exit the menu / program.<br>
-     elif (strChoice.strip() == '5'):<br>
-         break<br>
+##### Step 7 – Exit the menu / program. 
+ elif (strChoice.strip() == '5'): 
+ break<br>
 
 input("\nPress the enter key to exit")<br>
 
