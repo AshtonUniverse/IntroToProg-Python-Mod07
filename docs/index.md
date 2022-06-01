@@ -1,9 +1,11 @@
 ## Ashton Larkin<br>
-##### May 31, 2022<br>
-##### IT FDN 110 A Spring 2022: Foundations of Programming: Python<br>
-##### Assignment07<br>
-##### https://github.com/AshtonUniverse/IntroToProg-Python-Mod07<br>
-##### https://github.com/AshtonUniverse/IntroToProg-Python-Mod07<br>
+```
+May 31, 2022
+IT FDN 110 A Spring 2022: Foundations of Programming: Python
+Assignment07
+https://github.com/AshtonUniverse/IntroToProg-Python-Mod07
+https://ashtonuniverse.github.io/IntroToProg-Python-Mod07
+```
 
 ###  Introduction:<br>
 
@@ -46,7 +48,7 @@ lstTable = []   # A list that acts as a 'table' of rows<br>
 strChoice = ""  # Capture the user option selection<br>
 ```
 
-##### -- Processing -- #
+##### -- Processing --
 
 ##### Step 1 - When the program starts, load data from PersonalData.dat
 
@@ -82,7 +84,7 @@ except Exception as e:
     # print(e, e.__doc__, type(e), sep='\n')
 ```
 
-##### -- Input/Output -- #<br>
+##### -- Input/Output --<br>
 
 ##### Step 2 - Display a menu of choices to the user.<br>
 
