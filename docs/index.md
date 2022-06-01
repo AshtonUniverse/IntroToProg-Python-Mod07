@@ -205,7 +205,7 @@ Step 7 exits the loop, and an input() function prompts the user to press the “
 
 ### Run the script from PyCharm.<br>
 
-![Image](./pycharm1.png)
+![Image](./images/pycharm1.png)
 
 ### Run the Python Script from the Windows OS Command Shell and verify the data in the ToDoList.txt file.<br>
 
